@@ -5,6 +5,7 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=https://+:443;http://+:80
+      - WebAppDemo_WelcomeMessage=Hello world (from docker-compose.override.yml)
     ports:
       - "80"
       - "443"
