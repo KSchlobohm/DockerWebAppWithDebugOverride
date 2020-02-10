@@ -1,0 +1,6 @@
+version: '3.4'
+
+services:
+  webapplication1:
+    environment:
+      - WebAppDemo_WelcomeMessage=Hello world (from docker-compose.vs.release.yml)
